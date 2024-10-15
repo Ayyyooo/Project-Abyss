@@ -147,6 +147,7 @@ namespace FishNet.Component.Spawning
         /// <param name="rot"></param>
         private void SetSpawnUsingPrefab(Transform prefab, out Vector3 pos, out Quaternion rot)
         {
+            Debug.Log("Player spawned");
             pos = prefab.position;
             rot = prefab.rotation;
         }
