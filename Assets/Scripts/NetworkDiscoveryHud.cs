@@ -6,13 +6,13 @@ namespace FishNet.Discovery
     public sealed class CustomNetworkDiscoveryHud : MonoBehaviour
     {
         [SerializeField]
-        private NetworkDiscovery networkDiscovery;
+        public NetworkDiscovery networkDiscovery;
 
-        private readonly HashSet<string> _addresses = new();
+        public readonly HashSet<string> _addresses = new();
 
-        private Vector2 _serversListScrollVector;
+        public Vector2 _serversListScrollVector;
 
-        private void Start()
+        public void Start()
         {
             if (networkDiscovery == null || !TryGetComponent(out networkDiscovery)) 
                 networkDiscovery = FindAnyObjectByType<NetworkDiscovery>();
@@ -20,7 +20,7 @@ namespace FishNet.Discovery
             networkDiscovery.ServerFoundCallback += endPoint => _addresses.Add(endPoint.Address.ToString());
         }
 
-        private void OnGUI()
+        public void OnGUI()
         {
             GUILayoutOption buttonHeight = GUILayout.Height(30.0f);
 

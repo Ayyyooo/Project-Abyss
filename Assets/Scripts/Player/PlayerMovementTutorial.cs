@@ -142,6 +142,7 @@ public class PlayerMovementTutorial : NetworkBehaviour
         }
         else if (grounded)
         {
+            Debug.Log("Walking");
             state = MovementState.walking;
             moveSpeed = walkSpeed;
         }
@@ -154,7 +155,10 @@ public class PlayerMovementTutorial : NetworkBehaviour
 
     private void MovePlayer()
     {
-        if (!IsOwner) return;
+        //if (!IsOwner) return;
+        if(verticalInput > 0 || horizontalInput > 0){
+            Debug.Log("Vertical input:" + verticalInput + "Horizontal Input: " + horizontalInput);
+        }
 
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
@@ -168,9 +172,10 @@ public class PlayerMovementTutorial : NetworkBehaviour
         }
 
         // on ground
-        else if (grounded)
+        else if (grounded){
+            Debug.Log("Grounded");
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
-
+        }
         // in air
         else if (!grounded)
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
