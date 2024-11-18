@@ -12,7 +12,7 @@ public class LegMovement : MonoBehaviour
 
     [SerializeField] float LegMaxLength = 2f;
     [SerializeField] float StepDistance = 0.6f;
-    [SerializeField] int FramesForStep = 10;
+    [SerializeField] int FramesForStep = 20;
     [SerializeField] float MaxStepHeight = 0.5f;
     [SerializeField] float targetOffset = 0.5f;
     [SerializeField] float WaitingTime = 0.01f;
