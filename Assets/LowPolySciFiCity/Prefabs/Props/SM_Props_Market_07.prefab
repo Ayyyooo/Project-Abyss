@@ -1,0 +1,822 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8735760287584203455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8246221888630286341}
+  - component: {fileID: 5034932622712956832}
+  - component: {fileID: 7078352130922517354}
+  - component: {fileID: 494735064468964695}
+  m_Layer: 0
+  m_Name: SM_Props_Market_07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8246221888630286341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8735760287584203455}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6437271461511042173}
+  - {fileID: 6035606169350155206}
+  - {fileID: 8446339333090402508}
+  - {fileID: 1031500195005117338}
+  - {fileID: 2428318543549100760}
+  - {fileID: 5598852975921021610}
+  - {fileID: 1783337906848335462}
+  - {fileID: 6601105776357805706}
+  - {fileID: 7162402774520786087}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5034932622712956832
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8735760287584203455}
+  m_Mesh: {fileID: 4872646524445961396, guid: 4b0d5e6c93fbd51408a4db10e908a822, type: 3}
+--- !u!23 &7078352130922517354
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8735760287584203455}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 941874b17a7a4964fbb854beb125a346, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &494735064468964695
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8735760287584203455}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.57715327, y: 0.096404836, z: 0.38393134}
+  m_Center: {x: 0, y: 0.048202418, z: 0}
+--- !u!1001 &425528108446039445
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8246221888630286341}
+    m_Modifications:
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.19448924
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.022165298
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0913216
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.05176689
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8651434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.4904157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 527.949
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395443615669032439, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_Food_Mushroom_01 (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2680456911351272678, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+--- !u!4 &2428318543549100760 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 425528108446039445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3027622503739882711
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8246221888630286341}
+    m_Modifications:
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7180549
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.40703723
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.49113104
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2784031
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 291.258
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395443615669032439, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_Food_Mushroom_01 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2680456911351272678, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+--- !u!4 &1031500195005117338 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 3027622503739882711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4389717945275468075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8246221888630286341}
+    m_Modifications:
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.104
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.033
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7927059
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.4493533
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3583717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.20314692
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 671.346
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395443615669032439, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_Food_Mushroom_01 (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2680456911351272678, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+--- !u!4 &1783337906848335462 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4389717945275468075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5129932260114899946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8246221888630286341}
+    m_Modifications:
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08133793
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.030507565
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.84233296
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.47748566
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.21745718
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.123267904
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 388.951
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395443615669032439, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_Food_Mushroom_01 (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2680456911351272678, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+--- !u!4 &7162402774520786087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 5129932260114899946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5864730741612556161
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8246221888630286341}
+    m_Modifications:
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.054
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.33857256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.19192359
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.80136204
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.45426092
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 225.808
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395443615669032439, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_Food_Mushroom_01 (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2680456911351272678, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+--- !u!4 &8446339333090402508 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 5864730741612556161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7631286106260704743
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8246221888630286341}
+    m_Modifications:
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.106637955
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.043474197
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.52178836
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.29578146
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.69609606
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.39458916
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 466.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395443615669032439, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_Food_Mushroom_01 (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2680456911351272678, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+--- !u!4 &5598852975921021610 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7631286106260704743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8617108486555690123
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8246221888630286341}
+    m_Modifications:
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.77903
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.77903
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.77903
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.071
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.034728
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.8694271
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49284425
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.030150153
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.017090974
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 363.972
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395443615669032439, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_Food_Mushroom_01 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2680456911351272678, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+--- !u!4 &6035606169350155206 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 8617108486555690123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9007499558288251696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8246221888630286341}
+    m_Modifications:
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.215
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.13345107
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.075648256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.85965294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.48730373
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 197.648
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395443615669032439, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_Food_Mushroom_01 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2680456911351272678, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+--- !u!4 &6437271461511042173 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 9007499558288251696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9209597271983014343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8246221888630286341}
+    m_Modifications:
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.85858
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.85858
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.85858
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0072655
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.036586
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.13198
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.46279725
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.26234114
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7366353
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.41756946
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 604.279
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395443615669032439, guid: deb40a2165309b54a82f0120133eb9e1,
+        type: 3}
+      propertyPath: m_Name
+      value: SM_Food_Mushroom_01 (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2680456911351272678, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: deb40a2165309b54a82f0120133eb9e1, type: 3}
+--- !u!4 &6601105776357805706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2617956247275720525, guid: deb40a2165309b54a82f0120133eb9e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 9209597271983014343}
+  m_PrefabAsset: {fileID: 0}

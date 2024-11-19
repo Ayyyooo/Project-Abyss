@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: be8983ab5ee92854d91da1a23f697d9e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256133
+  packageName: Polygonal Post Apocalyptic Urban Ruins Asset Package
+  packageVersion: 1.0
+  assetPath: Assets/Aligned Games/Polygonal Post Apocalyptic Urban Ruins Asset Package/Scripts/Managers/InterfaceManager.cs
+  uploadId: 600746

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f52b933c3edc98048a47bbfae5f9edf4
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256133
+  packageName: Polygonal Post Apocalyptic Urban Ruins Asset Package
+  packageVersion: 1.0
+  assetPath: Assets/Aligned Games/Polygonal Post Apocalyptic Urban Ruins Asset Package/Shaders/Diffuse.shader
+  uploadId: 600746
