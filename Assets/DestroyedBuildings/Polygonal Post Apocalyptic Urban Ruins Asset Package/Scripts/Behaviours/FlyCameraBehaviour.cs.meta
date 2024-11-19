@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 06c4022882cf6374d8c6e4f42719e4cc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256133
+  packageName: Polygonal Post Apocalyptic Urban Ruins Asset Package
+  packageVersion: 1.0
+  assetPath: Assets/Aligned Games/Polygonal Post Apocalyptic Urban Ruins Asset Package/Scripts/Behaviours/FlyCameraBehaviour.cs
+  uploadId: 600746
