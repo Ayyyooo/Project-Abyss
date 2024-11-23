@@ -84,7 +84,6 @@ public class WallRunning : MonoBehaviour
         {
             if (!pm.wallRunning){
                 startWallRun();
-                Debug.Log("Conditions met for wall running: wallLeft=" + wallLeft + ", wallRight=" + wallRight + ", verticalInput=" + verticalInput);
                 if (verticalInput <= 0){
                 gravityCounterForce = 10;
                 stopWallRun();
@@ -100,11 +99,10 @@ public class WallRunning : MonoBehaviour
             {
                 exitingWall = true;
                 exitWallTimer = exitWallTime;
-                Debug.Log("Exiting wall running due to timer expiry");
             }
 
 
-            if (Input.GetKeyDown(jumpKey)) wallJump();
+            if (Input.GetKeyDown(jumpKey) &&(horizontalInput !=0 ||verticalInput !=0)) wallJump();
         }
 
         else if (exitingWall)
@@ -117,7 +115,6 @@ public class WallRunning : MonoBehaviour
 
             if (exitWallTimer <= 0){
                 exitingWall = false;
-                Debug.Log("Exited wall-running state");
             }
         }
 

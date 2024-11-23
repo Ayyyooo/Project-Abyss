@@ -1,6 +1,4 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
 
 public class Sliding : MonoBehaviour
 {
@@ -9,95 +7,93 @@ public class Sliding : MonoBehaviour
     public Transform playerObj;
     private Rigidbody rb;
     private PlayerMovementTutorial pm;
+    private CapsuleCollider playerCollider;
 
     [Header("Sliding")]
     public float maxSlideTime;
     public float slideForce;
+    public float slideYScale; // Y scale for sliding
     private float slideTimer;
-
-    public float slideYScale;
     private float startYScale;
+    private float startColliderHeight;
 
     [Header("Input")]
     public KeyCode slideKey = KeyCode.LeftControl;
     private float horizontalInput;
     private float verticalInput;
-
     private bool sliding;
-
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         pm = GetComponent<PlayerMovementTutorial>();
-        startYScale = playerObj.localScale.y;
-        rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
+        playerCollider = GetComponent<CapsuleCollider>();
 
+        startYScale = playerObj.localScale.y;
+        startColliderHeight = playerCollider.height;
     }
 
     private void Update()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+
         if (Input.GetKeyDown(slideKey) && (horizontalInput != 0 || verticalInput != 0))
         {
-            startSlide();
+            StartSlide();
         }
         if (Input.GetKeyUp(slideKey) && sliding)
         {
-            stopSlide();
+            StopSlide();
         }
-
     }
 
-    private void startSlide()
+    private void FixedUpdate()
+    {
+        bool grounded = Physics.Raycast(transform.position, Vector3.down, pm.playerHeight * 0.2f);
+        
+        if (sliding && grounded)
+        {
+            SlidingMovement();
+        }
+    }
+
+    private void StartSlide()
     {
         sliding = true;
+
+        // Reduce player scale and collider height
         playerObj.localScale = new Vector3(playerObj.localScale.x, slideYScale, playerObj.localScale.z);
-        rb.AddForce(Vector3.down * 0.1f, ForceMode.Impulse);
-
+        rb.AddForce(Vector3.down * 5f, ForceMode.Impulse); // Adjusted down force
         slideTimer = maxSlideTime;
-
-    }
-    private void FixedUpdate()
-    {   
-        bool grounded = Physics.Raycast(transform.forward, Vector3.down, pm.playerHeight * 0.2f);
-        // Draw a ray representing the sliding force direction and magnitude
-
-        if (sliding && grounded)
-
-            slidingMovement();
     }
 
-    private void slidingMovement()
+    private void SlidingMovement()
     {
-        Vector3 inputDirection = orientation.forward * verticalInput + orientation.forward * horizontalInput;
-        
+        Vector3 inputDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
         if (!pm.OnSlope() || rb.linearVelocity.y > -0.1f)
         {
-            // Normal sliding on flat ground
             rb.AddForce(inputDirection.normalized * slideForce, ForceMode.Force);
             slideTimer -= Time.deltaTime;
         }
         else
         {
             rb.AddForce(pm.GetSlopeMoveDirection(inputDirection) * slideForce, ForceMode.Force);
-           
         }
 
         if (slideTimer <= 0)
         {
-            stopSlide();
+            StopSlide();
         }
     }
 
-
-    private void stopSlide()
+    private void StopSlide()
     {
         sliding = false;
+
+        // Reset player scale and collider height
         playerObj.localScale = new Vector3(playerObj.localScale.x, startYScale, playerObj.localScale.z);
-
+        playerCollider.height = startColliderHeight;
     }
-
 }
