@@ -156,7 +156,7 @@ public class PlayerMovementTutorial : NetworkBehaviour
         {
             state = MovementState.crouching;
             moveSpeed = crouchSpeed;
-            Debug.Log(moveSpeed);
+
         }
         else if (grounded && Input.GetKey(sprintKey))
         {
@@ -165,7 +165,7 @@ public class PlayerMovementTutorial : NetworkBehaviour
         }
         else if (grounded)
         {
-            Debug.Log("Walking");
+            //Debug.Log("Walking");
             state = MovementState.walking;
             moveSpeed = walkSpeed;
         }
@@ -180,7 +180,7 @@ public class PlayerMovementTutorial : NetworkBehaviour
     {
         //if (!IsOwner) return;
         if(verticalInput > 0 || horizontalInput > 0){
-            Debug.Log("Vertical input:" + verticalInput + "Horizontal Input: " + horizontalInput);
+            //Debug.Log("Vertical input:" + verticalInput + "Horizontal Input: " + horizontalInput);
         }
 
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
@@ -196,7 +196,7 @@ public class PlayerMovementTutorial : NetworkBehaviour
 
         // on ground
         else if (grounded){
-            Debug.Log("Grounded");
+            //Debug.Log("Grounded");
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
         }
         // in air
