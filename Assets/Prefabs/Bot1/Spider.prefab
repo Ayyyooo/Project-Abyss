@@ -1604,6 +1604,8 @@ GameObject:
   - component: {fileID: 6310666525355852295}
   - component: {fileID: 6738616895328280906}
   - component: {fileID: 6613891454469962424}
+  - component: {fileID: 6415581962595112953}
+  - component: {fileID: 6507437024847851376}
   m_Layer: 0
   m_Name: Spider
   m_TagString: Untagged
@@ -1711,6 +1713,7 @@ MonoBehaviour:
   <PredictedOwner>k__BackingField: {fileID: 0}
   NetworkBehaviours:
   - {fileID: 3555174745511140289}
+  - {fileID: 3946883961000306144}
   <InitializedParentNetworkBehaviour>k__BackingField: {fileID: 0}
   <InitializedNestedNetworkObjects>k__BackingField: []
   _isNetworked: 1
@@ -1732,7 +1735,7 @@ MonoBehaviour:
   _spectatorInterpolation: 2
   _enableTeleport: 0
   _teleportThreshold: 1
-  <PrefabId>k__BackingField: 0
+  <PrefabId>k__BackingField: 7
   <SpawnableCollectionId>k__BackingField: 0
   <AssetPathHash>k__BackingField: 13618141773696713970
   <SceneId>k__BackingField: 0
@@ -1779,9 +1782,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce02315cd459f04499822e460000f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _componentIndexCache: 255
+  _componentIndexCache: 1
   _addedNetworkObject: {fileID: 5002837900019073117}
-  _networkObjectCache: {fileID: 0}
+  _networkObjectCache: {fileID: 5002837900019073117}
   StoppingDistance: 1.5
   RotationSpeed: 2
   AttackRange: 2
@@ -1906,6 +1909,33 @@ MonoBehaviour:
   - m_Rig: {fileID: 5013268573801547374}
     m_Active: 1
   m_Effectors: []
+--- !u!114 &6415581962595112953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5799884036068802599}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a651208b193bd8c4d9b9ea66213ed4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Health: 0
+  _MaxHealth: 50
+--- !u!114 &6507437024847851376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5799884036068802599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f56e3ceb8e83d47ad05d325ca83a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathSystem: {fileID: 0}
 --- !u!1 &5906866388858155848
 GameObject:
   m_ObjectHideFlags: 0

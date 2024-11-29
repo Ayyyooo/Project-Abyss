@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18b7315358c04d49933cd5c77fc3d3b, type: 3}
   m_Name: Sniper Ammo config
   m_EditorClassIdentifier: 
-  MaxAmmo: 20
-  ClipSize: 5
+  MaxAmmo: 99999
+  ClipSize: 99999
   CurrentAmmo: 20
-  CurrentClipAmmo: 5
+  CurrentClipAmmo: 2

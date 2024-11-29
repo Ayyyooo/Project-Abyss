@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18b7315358c04d49933cd5c77fc3d3b, type: 3}
   m_Name: GlockAmmoConfig
   m_EditorClassIdentifier: 
-  MaxAmmo: 90
-  ClipSize: 15
+  MaxAmmo: 9999
+  ClipSize: 9999
   CurrentAmmo: 90
   CurrentClipAmmo: 15

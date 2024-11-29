@@ -212,11 +212,13 @@ public class GunScriptableObject : ScriptableObject
 
         if (Hit.collider != null)
         {
-            
 
+            
             if (Hit.collider.TryGetComponent(out IDamageable damageable))
             {
                 damageable.TakeDamage(DamageConfig.GetDamage(distance));
+
+
             }
         }
 

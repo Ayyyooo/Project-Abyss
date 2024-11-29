@@ -49,10 +49,6 @@ public class Sliding : MonoBehaviour
             StopSlide();
         }
 
-        else if(Input.GetKey(slideKey)){
-             animator.SetFloat("Speed", 0.7f);
-
-        }
     }
 
     private void FixedUpdate()

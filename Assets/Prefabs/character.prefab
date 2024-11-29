@@ -598,7 +598,7 @@ MonoBehaviour:
   sprintSpeed: 100
   groundDrag: 2
   wallRunSpeed: 60
-  jumpForce: 20
+  jumpForce: 19.9
   jumpCooldown: 0.5
   airMultiplier: 1
   crouchSpeed: 25
@@ -868,7 +868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e7b6c9c6d6540a4a822821b1fc80e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gun: 2
+  Gun: 1
   GunParent: {fileID: 2134825389193559810}
   Guns:
   - {fileID: 11400000, guid: c2f1d42b3210893408d68408ee3faee5, type: 2}

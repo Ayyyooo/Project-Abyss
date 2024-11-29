@@ -27,6 +27,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         if (damageTaken != 0)
         {
             OnTakeDamage?.Invoke(damageTaken);
+            print("Damage: " + Damage);
         }
 
         if (CurrentHealth == 0 && damageTaken != 0)

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18b7315358c04d49933cd5c77fc3d3b, type: 3}
   m_Name: Uzi Ammo Config
   m_EditorClassIdentifier: 
-  MaxAmmo: 150
-  ClipSize: 30
+  MaxAmmo: 99999
+  ClipSize: 99999
   CurrentAmmo: 120
   CurrentClipAmmo: 30

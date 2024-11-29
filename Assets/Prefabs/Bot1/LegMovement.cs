@@ -90,14 +90,14 @@ public class LegMovement : MonoBehaviour
 
     }
 
-    public void OnTriggerEnter(Collider other)
-    {
-        //  Get the true closest point on the collider's surface
-        if (RotateToWall) return;
-        Vector3 ClosestPoint = other.ClosestPoint(ClosestPointOrigin.position);
+    //public void OnTriggerEnter(Collider other)
+    //{
+    //    //  Get the true closest point on the collider's surface
+    //    if (RotateToWall) return;
+    //    Vector3 ClosestPoint = other.ClosestPoint(ClosestPointOrigin.position);
         
-        setWallNormal(ClosestPoint);
-    }
+    //    setWallNormal(ClosestPoint);
+    //}
 
     private void setWallNormal(Vector3 position) {
       
