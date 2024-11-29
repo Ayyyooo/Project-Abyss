@@ -1,3 +1,4 @@
+using FishNet.Object;
 using UnityEngine;
 
 public class Sliding : MonoBehaviour
@@ -8,6 +9,7 @@ public class Sliding : MonoBehaviour
     private Rigidbody rb;
     private PlayerMovementTutorial pm;
     private CapsuleCollider playerCollider;
+    private Animator animator;
 
     [Header("Sliding")]
     public float maxSlideTime;
@@ -45,6 +47,11 @@ public class Sliding : MonoBehaviour
         if (Input.GetKeyUp(slideKey) && sliding)
         {
             StopSlide();
+        }
+
+        else if(Input.GetKey(slideKey)){
+             animator.SetFloat("Speed", 0.7f);
+
         }
     }
 

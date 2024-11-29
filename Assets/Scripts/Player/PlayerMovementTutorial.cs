@@ -42,12 +42,13 @@ public class PlayerMovementTutorial : NetworkBehaviour
 
 
 
+
     public Transform orientation;
     float horizontalInput;
     float verticalInput;
     Vector3 moveDirection;
     private Animator animator;
-
+    public Sliding slide;
     Rigidbody rb;
 
 
@@ -94,18 +95,11 @@ public class PlayerMovementTutorial : NetworkBehaviour
         }
 
         else if(!Input.GetKey(sprintKey)){
-            animator.SetFloat("Speed", 0.5f);
+            animator.SetFloat("Speed", 0.2f);
         }
         else if(Input.GetKey(sprintKey)){
 
-            animator.SetFloat("Speed", 0.7f);
-        }
-        else if(Input.GetKeyDown(KeyCode.R)){
-            animator.SetBool("Reloading", true);
-        }
-        else{
-            animator.SetBool("Reloading", false);
-
+            animator.SetFloat("Speed", 0.5f);
         }
 
     }
