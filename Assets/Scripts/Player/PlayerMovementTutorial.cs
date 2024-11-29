@@ -8,6 +8,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovementTutorial : NetworkBehaviour
 {
     [Header("Movement")]
+
     private float moveSpeed;
     public float walkSpeed;
     public float sprintSpeed;
@@ -27,6 +28,7 @@ public class PlayerMovementTutorial : NetworkBehaviour
     public KeyCode jumpKey = KeyCode.Space;
     public KeyCode sprintKey = KeyCode.LeftShift;
     public KeyCode crouchkey = KeyCode.LeftControl;
+    public KeyCode shoot = KeyCode.Mouse0;
 
     [Header("Ground Check")]
     public float playerHeight;
@@ -44,6 +46,7 @@ public class PlayerMovementTutorial : NetworkBehaviour
     float horizontalInput;
     float verticalInput;
     Vector3 moveDirection;
+    private Animator animator;
 
     Rigidbody rb;
 
@@ -61,10 +64,10 @@ public class PlayerMovementTutorial : NetworkBehaviour
     public bool wallRunning;
 
     private void Start()
-    {
+    {   
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
-
+        animator = GetComponent<Animator>();
         readyToJump = true;
 
         startYScale = transform.localScale.y;
@@ -85,6 +88,26 @@ public class PlayerMovementTutorial : NetworkBehaviour
             rb.linearDamping = groundDrag;
         else
             rb.linearDamping = 0;
+
+        if(moveDirection == Vector3.zero){
+            animator.SetFloat("Speed",0);
+        }
+
+        else if(!Input.GetKey(sprintKey)){
+            animator.SetFloat("Speed", 0.5f);
+        }
+        else if(Input.GetKey(sprintKey)){
+
+            animator.SetFloat("Speed", 0.7f);
+        }
+        else if(Input.GetKeyDown(KeyCode.R)){
+            animator.SetBool("Reloading", true);
+        }
+        else{
+            animator.SetBool("Reloading", false);
+
+        }
+
     }
 
     private void FixedUpdate()
