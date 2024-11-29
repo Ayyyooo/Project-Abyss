@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7301d1c341f36478e6140cdbb9ca03, type: 3}
+  m_Name: Sniper
+  m_EditorClassIdentifier: 
+  ImpactType: {fileID: 11400000, guid: c50f6f80c300615438adeba37e2ea508, type: 2}
+  Type: 2
+  Name: Sniper
+  ModelPrefab: {fileID: 7325140294523063421, guid: faef42b8825515249bdd8738a6f41d14, type: 3}
+  SpawnPoint: {x: -0.081, y: 0.062, z: -0.084}
+  SpawnRotation: {x: 275, y: 86, z: 0}
+  DamageConfig: {fileID: 11400000, guid: dec38cd3ad5677842a98bf7cb3016a72, type: 2}
+  ShootConfig: {fileID: 11400000, guid: 417b1090f175cf34b92499520a9eac39, type: 2}
+  AmmoConfig: {fileID: 11400000, guid: b0d62bf534a09ff4aa2d5a885bd4c872, type: 2}
+  TrailConfig: {fileID: 11400000, guid: 79c1328b195bf3b4497caa97d3949cd7, type: 2}
+  AudioConfig: {fileID: 11400000, guid: 9254a7587f436df4397eeec055b57339, type: 2}
