@@ -559,6 +559,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccdaacabf463ff34baa3cb360fd904b5, type: 3}
       insertIndex: -1
       addedObject: {fileID: -731104089253977790}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccdaacabf463ff34baa3cb360fd904b5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2714783050342867358}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccdaacabf463ff34baa3cb360fd904b5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3901228519393391429}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccdaacabf463ff34baa3cb360fd904b5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2273753713346610592}
   m_SourcePrefab: {fileID: 100100000, guid: ccdaacabf463ff34baa3cb360fd904b5, type: 3}
 --- !u!4 &261061264573949729 stripped
 Transform:
@@ -604,6 +613,7 @@ MonoBehaviour:
     m_Bits: 256
   maxSlopeAngle: 60
   orientation: {fileID: 1911689102915835488}
+  slide: {fileID: 0}
   state: 0
   wallRunning: 0
 --- !u!114 &5613395228525484891
@@ -830,3 +840,63 @@ MonoBehaviour:
     X: 0
     Y: 0
     Z: 0
+--- !u!114 &-2714783050342867358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636319792461725083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfead5a010aee34e862cd1c493dd008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunSelector: {fileID: -3901228519393391429}
+  AutoReload: 1
+  InverseKinematics: {fileID: -2273753713346610592}
+  PlayerAnimator: {fileID: 5608272267625007165}
+--- !u!114 &-3901228519393391429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636319792461725083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7b6c9c6d6540a4a822821b1fc80e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gun: 2
+  GunParent: {fileID: 2134825389193559810}
+  Guns:
+  - {fileID: 11400000, guid: c2f1d42b3210893408d68408ee3faee5, type: 2}
+  - {fileID: 11400000, guid: cdf736977e88a034280829a6d0d61d7e, type: 2}
+  - {fileID: 11400000, guid: 21d55706f378e8246931d5df744b8dfc, type: 2}
+  - {fileID: 11400000, guid: ffb314d0dd6b9394e9ab63a30446ad36, type: 2}
+  InverseKinematics: {fileID: -2273753713346610592}
+  ActiveGun: {fileID: 0}
+--- !u!114 &-2273753713346610592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636319792461725083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e54484386fa12d449c347c600a747b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftHandIKTarget: {fileID: 0}
+  RightHandIKTarget: {fileID: 0}
+  LeftElbowIKTarget: {fileID: 0}
+  RightElbowIKTarget: {fileID: 0}
+  HandIKAmount: 1
+  ElbowIKAmount: 1
+--- !u!4 &2134825389193559810 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1852576806548013000, guid: ccdaacabf463ff34baa3cb360fd904b5, type: 3}
+  m_PrefabInstance: {fileID: 294353192361525450}
+  m_PrefabAsset: {fileID: 0}
